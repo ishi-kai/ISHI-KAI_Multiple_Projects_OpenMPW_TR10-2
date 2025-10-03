@@ -1,0 +1,43 @@
+* Created by KLayout
+
+* cell OPAMP_arstopia
+* pin vinn
+* pin vdd
+* pin ib
+* pin out
+* pin vinp
+* pin vss
+.SUBCKT OPAMP_arstopia 3 5 7 8 9 12
+* net 3 vinn
+* net 5 vdd
+* net 7 ib
+* net 8 out
+* net 9 vinp
+* net 12 vss
+* device instance $1 r0 *1 437.3,-145.1 NMOS
+M$1 12 2 8 12 NMOS L=2U W=180U AS=296P AD=296P PS=229.6U PD=229.6U
+* device instance $10 r180 *1 245.1,-35.6 PMOS
+M$10 5 7 4 5 PMOS L=2U W=360U AS=566P AD=566P PS=436.6U PD=436.6U
+* device instance $28 r270 *1 579.6,-77.3 CSIO
+C$28 8 10 12 8.856e-12 CSIO
+* device instance $29 r0 *1 460.7,-36.4 NMOS
+M$29 2 6 10 12 NMOS L=2U W=22U AS=47.3P AD=47.3P PS=41.6U PD=41.6U
+* device instance $31 r180 *1 420.5,-35.9 PMOS
+M$31 5 7 8 5 PMOS L=2U W=540U AS=836P AD=836P PS=643.6U PD=643.6U
+* device instance $58 r0 *1 320.7,-145.1 NMOS
+M$58 2 1 12 12 NMOS L=2U W=60U AS=116P AD=116P PS=91.6U PD=91.6U
+* device instance $61 r180 *1 266.2,-145.1 NMOS
+M$61 12 1 1 12 NMOS L=2U W=60U AS=116P AD=116P PS=91.6U PD=91.6U
+* device instance $64 r180 *1 277.5,-95.5 PMOS
+M$64 4 3 1 4 PMOS L=2U W=720U AS=1106P AD=1106P PS=850.6U PD=850.6U
+* device instance $100 r180 *1 486.4,-95.5 PMOS
+M$100 4 9 2 4 PMOS L=2U W=720U AS=1106P AD=1106P PS=850.6U PD=850.6U
+* device instance $136 r180 *1 79,-34.7 PMOS
+M$136 5 7 7 5 PMOS L=2U W=15U AS=29P AD=29P PS=31.6U PD=31.6U
+* device instance $139 r180 *1 124.2,-34.7 PMOS
+M$139 5 7 6 5 PMOS L=2U W=15U AS=29P AD=29P PS=31.6U PD=31.6U
+* device instance $142 r180 *1 72,-74.3 NMOS
+M$142 11 6 6 12 NMOS L=2U W=5U AS=14P AD=14P PS=15.6U PD=15.6U
+* device instance $143 r180 *1 72,-101.6 NMOS
+M$143 12 11 11 12 NMOS L=2U W=5U AS=14P AD=14P PS=15.6U PD=15.6U
+.ENDS OPAMP_arstopia

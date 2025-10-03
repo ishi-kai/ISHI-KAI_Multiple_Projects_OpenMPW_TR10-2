@@ -1,0 +1,5 @@
+---
+target: opamp
+reference: lvs_work/opamp_reference.cir.txt
+netlist: "/mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/simulation/opamp.spice"
+schematic: "/mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/simulation/opamp.spice"

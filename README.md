@@ -1,2 +1,222 @@
-# ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2
-ISHI会版OpenMPW TR10-2～2025年TR10（東海理化シャトル）の相乗り～
+# ISHI会版OpenMPW TR10-2について
+これは、[ISHI会版OpenMPW TR10-2](https://ishi-kai.org/openmpw/shuttle/tr10/2025/08/01/shuttle_ISHI-Kai_OpenMPW-TR10-2_start.html)にみんなで相乗りしたxschemによる回路図とklayoutによるレイアアウト置き場です。
+
+
+## みんなの[相乗りチップ](Submitted/all_members_layout.gds)
+- ![all_members_layout](images/all_members_layout.png)
+- ![all_members_layout_using](images/all_members_layout_using.png)
+
+### 相乗りチップのラベル
+- オレンジ枠  
+-- 初めてのInverter回路  
+- 緑枠  
+-- OPAMP回路  
+- 紫枠  
+-- 1bit-CPU回路  
+
+
+## 謝辞
+[九州大学大学院システム情報科学府附属価値創造型半導体人材育成センターが主催する2025年度実習シリーズでISHI会のインバータ回路ハンズオンが採用されました](https://ishi-kai.org/seminar/2025/07/15/Seminar_KyushuUniv_inverter.html)の試験運用の一環として実施されたシャトルとなります。  
+
+- [九州大学が採択された「文科省の半導体人材育成の拠点校」に利用予定のハンズオンの試験運用をしてきました](https://ishi-kai.org/seminar/2025/09/26/Seminar_KyushuUniv_Adopted.html)
+- ![スポンサー](https://ishi-kai.org/assets/images/shuttle/ISHIKAI_OpenMPW_TR10_2.png)
+
+
+# 参加者リスト
+ISHI会版OpenMPW TR10-2は全18人による全18デザインの投稿がありました。  
+
+
+## [Inverter回路]()
+- [cherry-takuan]()
+- [daiN112_Nomura]()
+- [kano]()
+- [Liesegang]()
+- [rikulh]()
+- [wipeseals]()
+- [ShinriNakamura]()
+
+## [OPAMP回路]()
+- [arstopia]()
+- [kano]()
+- [ShuntaroOhno]()
+- [YukiMatsushima]()
+- [YutakaKOTANI]()
+
+## [1bit-CPU回路]()
+- [ICHIKEN]()
+- [九州産業大学の貞方先生]()
+- [Yamada3]()
+- [hamasuna]()
+- [kano]()
+- [dokunira]()
+
+
+## 各種リスト
+- [ピンリスト](docs/pin_list.pdf)
+
+
+# Inverter回路参加者
+[2025年09月イベント：初めての半導体設計・製造体験！一日で作るインバータ回路ハンズオン](https://ishikai.connpass.com/event/363093/)での成果物です。  
+
+
+## 回路図とGDSファイル
+- [参加者のインバータ回路置き場](./member_project/inverter/)
+- [MUX化したインバータ回路置き場](./member_project/inverter_MUX/)
+-- 今回はピン数の都合で8chのマルチプレクサ/デマルチプレクサを使って実装しています。
+
+
+## [cherry-takuan](./member_project/inverter/cherry-takuan/)の回路
+
+- [感想と回路図とGDS置き場](./member_project/inverter/cherry-takuan/)
+![回路図](./member_project/inverter/cherry-takuan/images/schem.png)
+![レイアウト](./member_project/inverter/cherry-takuan/images/layout.png)
+
+
+## [daiN112_Nomura](./member_project/inverter/daiN112_Nomura/)の回路
+
+- [感想と回路図とGDS置き場](./member_project/inverter/daiN112_Nomura/)
+![回路図](./member_project/inverter/daiN112_Nomura/images/schem.png)
+![レイアウト](./member_project/inverter/daiN112_Nomura/images/layout.png)
+
+
+## [kano](./member_project/inverter/kano/)の回路
+
+- [感想と回路図とGDS置き場](./member_project/inverter/kano/)
+![回路図](./member_project/inverter/kano/images/schem.png)
+![レイアウト](./member_project/inverter/kano/images/layout.png)
+
+
+## [Liesegang](./member_project/inverter/Liesegang/)の回路
+
+- [感想と回路図とGDS置き場](./member_project/inverter/Liesegang/)
+![回路図](./member_project/inverter/Liesegang/images/schem.png)
+![レイアウト](./member_project/inverter/Liesegang/images/layout.png)
+
+
+## [rikulh](./member_project/inverter/rikulh/)の回路
+
+- [感想と回路図とGDS置き場](./member_project/inverter/rikulh/)
+![回路図](./member_project/inverter/rikulh/images/schem.png)
+![レイアウト](./member_project/inverter/rikulh/images/layout.png)
+
+
+## [wipeseals](./member_project/inverter/wipeseals/)の回路
+
+- [感想と回路図とGDS置き場](./member_project/inverter/wipeseals/)
+![回路図](./member_project/inverter/wipeseals/img/sch.png)
+![レイアウト](./member_project/inverter/wipeseals/img/gds.png)
+
+
+## [ShinriNakamura](./member_project/inverter/ShinriNakamura/)の回路
+
+- [回路図とGDS置き場](./member_project/inverter/ShinriNakamura/)
+![回路図](./member_project/inverter/ShinriNakamura/images/schem.png)
+![レイアウト](./member_project/inverter/ShinriNakamura/images/layout.png)
+
+
+
+# OPAMP回路参加者
+[2025年09月イベント：二日でOPAMP回路ハンズオン](https://ishikai.connpass.com/event/363412/)での成果物です。  
+インバータ回路を終えて、中級者への道の第一歩としてのハンズオンです。  
+
+
+## 設計方針と回路図とGDSファイル
+- [参加者のOPAMP回路置き場](./member_project/OPAMP/)
+
+
+## [arstopia](./member_project/OPAMP/arstopia/)の回路
+
+- [設計方針と回路図とGDS置き場](./member_project/OPAMP/arstopia/)
+![回路図](./member_project/OPAMP/arstopia/images/tk-opamp.png)
+![レイアウト](./member_project/OPAMP/arstopia/images/tk-opamp-layout.png)
+
+
+## [kano](./member_project/OPAMP/kano/)の回路
+
+- [設計方針と回路図とGDS置き場](./member_project/OPAMP/kano/)
+![回路図](./member_project/OPAMP/kano/images/schem.png)
+![レイアウト](./member_project/OPAMP/kano/images/layout.png)
+
+
+## [ShuntaroOhno](./member_project/OPAMP/ShuntaroOhno/)の回路
+
+- [設計方針と回路図とGDS置き場](./member_project/OPAMP/ShuntaroOhno/)
+![回路図](./member_project/OPAMP/ShuntaroOhno/images/schem.png)
+![レイアウト](./member_project/OPAMP/ShuntaroOhno/images/layout.png)
+
+
+## [YukiMatsushima](./member_project/OPAMP/YukiMatsushima/)の回路
+
+- [設計方針と回路図とGDS置き場](./member_project/OPAMP/YukiMatsushima/)
+![回路図](./member_project/OPAMP/YukiMatsushima/images/schem.png)
+![レイアウト](./member_project/OPAMP/YukiMatsushima/images/layout.png)
+
+
+## [YutakaKOTANI](./member_project/OPAMP/YutakaKOTANI/)の回路
+
+- [設計方針と回路図とGDS置き場](./member_project/OPAMP/YutakaKOTANI/)
+![回路図](./member_project/OPAMP/YutakaKOTANI/opamp_sch.png)
+![レイアウト](./member_project/OPAMP/YutakaKOTANI/opamp_layout.png)
+
+
+
+# 1bit-CPU回路参加者
+ロジック（デジタル）回路の中級編の1bit-CPUハンズオンです。  
+学習内容は、「CPUやGPUのようなデジタル回路は「HDL（ハードウェア記述言語）で設計する」わけだけど、それがどうやって半導体になっているのか？を体験して理解するという内容です。  
+今回は、[九州産業大学の貞方先生](https://ras2.kyusan-u.ac.jp/kyshp/KgApp/k05/resid/S001627/863)の協力のもと、試験運用を実施しました。  
+
+- [1bit-CPUサンプル](https://github.com/ishi-kai/openmpw-transistor-level-examples/tree/main/TR10/1bit-CPU)
+- [1bit-CPU設計資料](https://github.com/ishi-kai/openmpw-transistor-level-examples/blob/main/TR10/docs/1bit-CPU_TR10.pdf)
+
+
+## 回路図とGDSファイル
+- [参加者の1bit-CPU回路置き場](./member_project/1bit-CPU/)
+- [MUX化した1bit-CPU回路置き場](./member_project/1bit-CPU_ALL/)
+-- 今回はピン数の都合で4chのマルチプレクサ/デマルチプレクサを2段で使って実装しています。
+
+
+## [ICHIKEN](./member_project/1bit-CPU/ICHIKEN/)の回路
+[電気系ものづくりYouTuberのイチケンさん](https://www.youtube.com/@ICHIKEN1)がレイアウトした1bit-CPUとなります。  
+
+- [回路図とGDS置き場](./member_project/1bit-CPU/ICHIKEN/)
+![レイアウト](./member_project/1bit-CPU/ICHIKEN/layout.png)
+
+
+## [九州産業大学の貞方先生](./member_project/1bit-CPU/sadakata/)の回路
+[九州産業大学の貞方先生](https://ras2.kyusan-u.ac.jp/kyshp/KgApp/k03/resid/S001627)がレイアウトした1bit-CPUとなります。  
+
+- [回路図とGDS置き場](./member_project/1bit-CPU/sadakata/)
+![レイアウト](./member_project/1bit-CPU/sadakata/layout.png)
+
+
+## [Yamada3](./member_project/1bit-CPU/yamada3/)の回路
+主婦のYamada3がレイアウトした1bit-CPUとなります。  
+
+- [回路図とGDS置き場](./member_project/1bit-CPU/yamada3/)
+![レイアウト](./member_project/1bit-CPU/yamada3/layout.png)
+
+
+## [hamasuna](./member_project/1bit-CPU/hamasuna/)の回路
+九州大学の学生であるhamasunaがレイアウトした1bit-CPUとなります。  
+
+- [回路図とGDS置き場](./member_project/1bit-CPU/hamasuna/)
+![レイアウト](./member_project/1bit-CPU/hamasuna/layout.png)
+
+
+## [kano](./member_project/1bit-CPU/kano/)の回路
+九州大学の学生であるkanoがレイアウトした1bit-CPUとなります。  
+
+- [回路図とGDS置き場](./member_project/1bit-CPU/kano/)
+![レイアウト](./member_project/1bit-CPU/kano/layout.png)
+
+
+## [dokunira](./member_project/1bit-CPU/dokunira/)の回路
+東京大学の学生であるdokuniraがレイアウトした最小サイズクラスの1bit-CPUとなります。  
+
+- [回路図とGDS置き場](./member_project/1bit-CPU/dokunira/)
+![レイアウト](./member_project/1bit-CPU/dokunira/layout.png)
+
+
+
+# 測定会
+2026年2月、チップ到着予定。  

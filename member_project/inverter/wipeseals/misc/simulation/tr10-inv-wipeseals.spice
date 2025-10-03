@@ -1,0 +1,6 @@
+** sch_path: /home/ishi-kai/OpenRule1umPDK_setupEDA/tr10-inv-wipeseals.sch
+.subckt tr10-inv-wipeseals A Q VSS VDD
+*.PININFO A:I Q:O VSS:B VDD:I
+XM1 Q A VDD VDD PMOS w=8.2u l=1u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM2 Q A VSS VSS NMOS w=3.4u l=1u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+.ends

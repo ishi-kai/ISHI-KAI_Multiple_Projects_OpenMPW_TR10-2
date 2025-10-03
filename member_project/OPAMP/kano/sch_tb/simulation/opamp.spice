@@ -1,0 +1,35 @@
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/opamp.sch
+.subckt opamp vinp vinn ib out vdd vss
+*.PININFO vinp:I vinn:I out:O vdd:B vss:B ib:B
+X1 vinp vinn net2 vdd vss ib diff
+X2 net2 ib out vdd vss cs
+XM9 net1 ib vdd vdd PMOS w=30u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM12 net3 net1 net2 vss NMOS w=15u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM1 ib ib vdd vdd PMOS w=30u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM10 net1 net1 net4 vss NMOS w=10u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM11 net4 net4 vss vss NMOS w=10u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XC1 net3 out vss F_CSIO c=8.856p x=120u y=120u m=1
+.ends
+
+* expanding   symbol:  diff.sym # of pins=6
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/diff.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/diff.sch
+.subckt diff vinp vinn out vdd vss vb
+*.PININFO vinn:I vinp:I vb:I out:O vdd:B vss:B
+XM5 net2 vb vdd vdd PMOS w=720u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM1 net1 vinn net2 net2 PMOS w=1080u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM2 out vinp net2 net2 PMOS w=1080u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM3 net1 net1 vss vss NMOS w=120u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM4 out net1 vss vss NMOS w=120u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+.ends
+
+
+* expanding   symbol:  cs.sym # of pins=5
+** sym_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/cs.sym
+** sch_path: /mnt/c/Data/OneDrive/MyDocuments/Community/ISHIKAI/shuttle/TR10/202509/OPAMP/opamp_kano16/kano16_opamp/sch_tb/cs.sch
+.subckt cs vin vb out vdd vss
+*.PININFO vb:I vin:I out:O vss:B vdd:B
+XM6 out vb vdd vdd PMOS w=600u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+XM7 out vin vss vss NMOS w=200u l=5u as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 m=1
+.ends
+

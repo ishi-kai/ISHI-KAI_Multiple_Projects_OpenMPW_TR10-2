@@ -1,0 +1,5 @@
+---
+target: opamp
+reference: lvs_work/opamp_reference.cir.txt
+netlist: "/home/shunt/openmpw-transistor-level-examples/TR10/opamp/simulation/opamp.spice"
+schematic: "/home/shunt/openmpw-transistor-level-examples/TR10/opamp/simulation/opamp.spice"

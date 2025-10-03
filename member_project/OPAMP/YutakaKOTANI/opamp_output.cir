@@ -1,0 +1,43 @@
+* Created by KLayout
+
+* cell OPAMP_kotani
+* pin VDD
+* pin IB
+* pin OUT
+* pin VINN
+* pin VINP
+* pin SUBSTRATE
+.SUBCKT OPAMP_kotani 1 2 8 10 11 12
+* net 1 VDD
+* net 2 IB
+* net 8 OUT
+* net 10 VINN
+* net 11 VINP
+* net 12 SUBSTRATE
+* device instance $1 r0 *1 18.8,-56.4 NMOS
+M$1 8 5 12 12 NMOS L=2U W=200U AS=313P AD=313P PS=272.6U PD=272.6U
+* device instance $21 r0 *1 -81.2,-56.4 NMOS
+M$21 5 6 12 12 NMOS L=2U W=10U AS=28P AD=28P PS=25.6U PD=25.6U
+* device instance $22 m90 *1 -128.8,-56.4 NMOS
+M$22 6 6 12 12 NMOS L=2U W=10U AS=28P AD=28P PS=25.6U PD=25.6U
+* device instance $23 m0 *1 -1.2,51.4 PMOS
+M$23 1 2 8 1 PMOS L=2U W=300U AS=463P AD=463P PS=402.6U PD=402.6U
+* device instance $53 r0 *1 -221.2,-56.4 NMOS
+M$53 3 3 12 12 NMOS L=2U W=20U AS=43P AD=43P PS=38.6U PD=38.6U
+* device instance $55 r0 *1 -221.2,-6.4 NMOS
+M$55 4 4 3 12 NMOS L=2U W=20U AS=43P AD=43P PS=38.6U PD=38.6U
+* device instance $57 r0 *1 -26.2,-56.4 NMOS
+M$57 9 4 5 12 NMOS L=2U W=20U AS=43P AD=43P PS=38.6U PD=38.6U
+* device instance $59 r270 *1 250,-5 CSIO
+C$59 8 9 12 8.856e-12 CSIO
+* device instance $60 r0 *1 -266.2,53.6 PMOS
+M$60 2 2 1 1 PMOS L=2U W=30U AS=58P AD=58P PS=51.6U PD=51.6U
+* device instance $63 r0 *1 -136.2,53.6 PMOS
+M$63 7 2 1 1 PMOS L=2U W=30U AS=58P AD=58P PS=51.6U PD=51.6U
+* device instance $66 r0 *1 -221.2,53.6 PMOS
+M$66 4 2 1 1 PMOS L=2U W=30U AS=58P AD=58P PS=51.6U PD=51.6U
+* device instance $69 m90 *1 -73.8,-6.4 PMOS
+M$69 5 11 7 7 PMOS L=2U W=30U AS=58P AD=58P PS=51.6U PD=51.6U
+* device instance $72 r0 *1 -136.2,-6.4 PMOS
+M$72 6 10 7 7 PMOS L=2U W=30U AS=58P AD=58P PS=51.6U PD=51.6U
+.ENDS OPAMP_kotani
