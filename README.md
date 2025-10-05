@@ -44,6 +44,7 @@ ISHI会版OpenMPW TR10-2は全16人による全18デザインの投稿があり�
 - [ShuntaroOhno](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#shuntaroohno%E3%81%AE%E5%9B%9E%E8%B7%AF)
 - [YukiMatsushima](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#yukimatsushima%E3%81%AE%E5%9B%9E%E8%B7%AF)
 - [YutakaKOTANI](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#yutakakotani%E3%81%AE%E5%9B%9E%E8%B7%AF)
+- [3zki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#3zki%E3%81%AE%E5%9B%9E%E8%B7%AF)
 
 ## [1bit-CPU回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#1bit-cpu%E5%9B%9E%E8%B7%AF%E5%8F%82%E5%8A%A0%E8%80%85)
 - [ICHIKEN](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#ichiken%E3%81%AE%E5%9B%9E%E8%B7%AF)
@@ -161,6 +162,14 @@ ISHI会版OpenMPW TR10-2は全16人による全18デザインの投稿があり�
 ![回路図](./member_project/OPAMP/YutakaKOTANI/opamp_sch.png)
 ![レイアウト](./member_project/OPAMP/YutakaKOTANI/opamp_layout.png)
 
+
+## [3zki](./member_project/OPAMP/3zki/)の回路
+Rail to Rail OPAMPです。  
+レイアウトもかなり工夫されたものになっており、上級者になりたい方は是非参考にしてみてください。  
+
+- [回路図とGDS置き場](./member_project/OPAMP/3zki/)
+![回路図](./member_project/OPAMP/3zki/schem.png)
+![レイアウト](./member_project/OPAMP/3zki/layout.png)
 
 
 # 1bit-CPU回路参加者
