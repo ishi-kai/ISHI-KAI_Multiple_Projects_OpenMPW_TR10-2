@@ -168,8 +168,8 @@ Rail to Rail OPAMPです。
 レイアウトもかなり工夫されたものになっており、上級者になりたい方は是非参考にしてみてください。  
 
 - [回路図とGDS置き場](./member_project/OPAMP/3zki/)
-![回路図](./member_project/OPAMP/3zki/schem.png)
-![レイアウト](./member_project/OPAMP/3zki/layout.png)
+![回路図](./member_project/OPAMP/3zki/images/schem.png)
+![レイアウト](./member_project/OPAMP/3zki/images/layout.png)
 
 
 # 1bit-CPU回路参加者
