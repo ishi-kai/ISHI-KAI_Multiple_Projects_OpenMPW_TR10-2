@@ -8,11 +8,11 @@
 
 ### 相乗りチップのラベル
 - オレンジ枠  
--- 初めてのInverter回路  
+    - 初めてのInverter回路  
 - 緑枠  
--- OPAMP回路  
+    - OPAMP回路  
 - 紫枠  
--- 1bit-CPU回路  
+    - 1bit-CPU回路  
 
 
 ## 謝辞
@@ -66,8 +66,8 @@ ISHI会版OpenMPW TR10-2は全16人による全18デザインの投稿があり�
 ## 回路図とGDSファイル
 - [参加者のインバータ回路置き場](./member_project/inverter/)
 - [MUX化したインバータ回路置き場](./member_project/inverter_MUX/)  
--- 今回はピン数の都合で8chのマルチプレクサ/デマルチプレクサを使って実装しています。  
---- [マルチプレクサ・デマルチプレクサの回路図とテストベンチとレイアウト](./MUX/)
+    - 今回はピン数の都合で8chのマルチプレクサ/デマルチプレクサを使って実装しています。  
+        - [マルチプレクサ・デマルチプレクサの回路図とテストベンチとレイアウト](./MUX/)
 
 ## [cherry-takuan](./member_project/inverter/cherry-takuan/)の回路
 
@@ -184,8 +184,8 @@ Rail to Rail OPAMPです。
 ## 回路図とGDSファイル
 - [参加者の1bit-CPU回路置き場](./member_project/1bit-CPU/)
 - [MUX化した1bit-CPU回路置き場](./member_project/1bit-CPU_ALL/)  
--- 今回はピン数の都合で4chのマルチプレクサ/デマルチプレクサを2段で使って実装しています。  
---- [マルチプレクサ・デマルチプレクサの回路図とテストベンチとレイアウト](./MUX/)
+    - 今回はピン数の都合で4chのマルチプレクサ/デマルチプレクサを2段で使って実装しています。  
+        - [マルチプレクサ・デマルチプレクサの回路図とテストベンチとレイアウト](./MUX/)
 
 
 ## [ICHIKEN](./member_project/1bit-CPU/ICHIKEN/)の回路
