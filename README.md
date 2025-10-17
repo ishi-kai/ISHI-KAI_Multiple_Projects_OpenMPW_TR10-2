@@ -258,7 +258,7 @@ Rail to Rail OPAMPです。
 - NM層
 ![NM](/EB/NM.png)
 - NSD層
-![NSD](/EB/NDS.png)
+![NSD](/EB/NSD.png)
 - NW層
 ![NW](/EB/NW.png)
 - PBE層
