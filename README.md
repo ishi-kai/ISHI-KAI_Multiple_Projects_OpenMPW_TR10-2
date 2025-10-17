@@ -230,6 +230,35 @@ Rail to Rail OPAMPです。
 ![レイアウト](./member_project/1bit-CPU/dokunira/layout.png)
 
 
+# 各種データ
+## EB（Electron Beam）データ
+ガラスマスク（レチクル）用のEBデータです。具体的には、GDSレイアウトデータを電子ビーム描画装置が読み込める独自の形式のデータに変換したものです。  
+- 役割
+    - 処理時間の短縮
+        - 変換処理では、半導体設計データは膨大になるため、階層構造の利用や並列処理といった技術で処理時間を短縮します。
+    - データ量の削減
+        - 微細な図形を基本図形に分解する際に、ショット数が増加したり、パターンの質が低下したりするのを防ぐために、微小ショットの発生を抑えるアルゴリズムが用いられます。﻿
+
+![CL](/EB/CL.png)
+![CONT](/EB/CONT.png)
+![HPM](/EB/HPM.png)
+![L](/EB/L.png)
+![M1](/EB/M1.png)
+![M2](/EB/M2.png)
+![NBE](/EB/NBE.png)
+![NF](/EB/NF.png)
+![NM](/EB/NM.png)
+![NSD](/EB/NDS.png)
+![NW](/EB/NW.png)
+![PBE](/EB/PBE.png)
+![PF](/EB/PF.png)
+![PM](/EB/PM.png)
+![PRO](/EB/PRO.png)
+![PSD](/EB/PSD.png)
+![PSUB](/EB/PSUB.png)
+![SG](/EB/SG.png)
+![TC](/EB/TC.png)
+
 
 # 測定会
 2026年2月、チップ到着予定。  
