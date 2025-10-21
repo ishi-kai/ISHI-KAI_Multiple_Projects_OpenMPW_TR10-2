@@ -6,6 +6,11 @@
 - ![all_members_layout](images/all_members_layout.png)
 - ![all_members_layout_using](images/all_members_layout_using.png)
 
+### 利用したPDK&EDA
+- [OpenIP62](https://github.com/ishi-kai/OpenIP62/releases/tag/OpenMPW-TR10-2)
+- [OpenRule1umPDK_setupEDA](https://github.com/ishi-kai/OpenRule1umPDK_setupEDA.git)
+
+
 ### 相乗りチップのラベル
 - オレンジ枠  
     - 初めてのInverter回路  
@@ -21,8 +26,6 @@
 
 - [九州大学が採択された「文科省の半導体人材育成の拠点校」に利用予定のハンズオンの試験運用をしてきました](https://ishi-kai.org/seminar/2025/09/26/Seminar_KyushuUniv_Adopted.html)
 - ![スポンサー](https://ishi-kai.org/assets/images/shuttle/ISHIKAI_OpenMPW_TR10_2.png)
-
-
 
 
 # 参加者リスト
