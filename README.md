@@ -11,6 +11,26 @@
 - [OpenRule1umPDK_setupEDA](https://github.com/ishi-kai/OpenRule1umPDK_setupEDA.git)
 
 
+### WSL Image
+上記の回路図やシミュレーション、レイアウト、DRC、LVSを実行するための環境をセットアップしたWSLイメージを用意しています。
+
+- [WSL Image](https://www.noritsuna.jp/download/ubuntu2404_TR10-2.tar.xz)
+    - ID: ishikai
+    - Pass: ishikai
+
+#### Installing WSL Images
+`wsl --import-in-place ubuntu2404_TR10-2 .\ubuntu2404_TR10-2\ext4.vhdx`
+
+起動には"ubuntu2404_TR10-2.lnk"をご利用ください。  
+
+
+#### Deleting WSL Images
+イメージも削除されるので注意してください。    
+
+`wsl --unregister ubuntu2404_TR10-2`
+
+
+
 ### 相乗りチップのラベル
 - オレンジ枠  
     - 初めてのInverter回路  
