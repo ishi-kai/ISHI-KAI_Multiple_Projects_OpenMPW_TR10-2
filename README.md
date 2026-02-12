@@ -5,6 +5,8 @@
 ## みんなの[相乗りチップ](Submitted/all_members_layout.gds)
 - ![all_members_layout](images/all_members_layout.png)
 - ![all_members_layout_using](images/all_members_layout_using.png)
+- ![chip_photo](chip_photo/microscope_chip.jpg)
+- ![package_photo](chip_photo/package_chip.jpg)
 
 ### 利用したPDK&EDA
 - [OpenIP62](https://github.com/ishi-kai/OpenIP62/releases/tag/OpenMPW-TR10-2)
@@ -303,4 +305,4 @@ Rail to Rail OPAMPです。
 
 
 # 測定会
-2026年2月、チップ到着予定。  
+
