@@ -2,11 +2,11 @@
 これは、[ISHI会版OpenMPW TR10-2](https://ishi-kai.org/openmpw/shuttle/tr10/2025/08/01/shuttle_ISHI-Kai_OpenMPW-TR10-2_start.html)にみんなで相乗りしたxschemによる回路図とklayoutによるレイアアウト置き場です。
 
 
-## みんなの[相乗りチップ](Submitted/all_members_layout.gds)
-- ![all_members_layout](images/all_members_layout.png)
-- ![all_members_layout_using](images/all_members_layout_using.png)
-- ![chip_photo](chip_photo/microscope_chip.jpg)
-- ![package_photo](chip_photo/package_chip.jpg)
+## みんなの[相乗りチップ](/Submitted/all_members_layout.gds)
+- ![all_members_layout](/images/all_members_layout.png)
+- ![all_members_layout_using](/images/all_members_layout_using.png)
+- ![chip_photo](/chip_photo/microscope_chip.jpg)
+- ![package_photo](/chip_photo/package_chip.jpg)
 
 ### 利用したPDK&EDA
 - [OpenIP62](https://github.com/ishi-kai/OpenIP62/releases/tag/OpenMPW-TR10-2)
@@ -305,4 +305,34 @@ Rail to Rail OPAMPです。
 
 
 # 測定会
+## [Inverter回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#inverter%E5%9B%9E%E8%B7%AF%E5%8F%82%E5%8A%A0%E8%80%85)
 
+- MUX含めて、無事に動作しました。
+
+## [OPAMP回路](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#opamp%E5%9B%9E%E8%B7%AF%E5%8F%82%E5%8A%A0%E8%80%85)
+
+### 無事に動作したOPAMP
+- [arstopia](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#arstopia%E3%81%AE%E5%9B%9E%E8%B7%AF)
+- [ShuntaroOhno](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#shuntaroohno%E3%81%AE%E5%9B%9E%E8%B7%AF)
+- [YutakaKOTANI](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#yutakakotani%E3%81%AE%E5%9B%9E%E8%B7%AF)
+
+無事に動作しました。  テスト用の回路は[「Open Source Silicon Magazine vol.2 ーはじめの一歩のその先へー～電気系ものづくりYouTuber イチケン氏降臨！次世代電子工作の第一歩！マイコンチップを自作しよう（アナログ編）～」の販売開始！](https://ishi-kai.org/article/2026/03/20/artcle_techbookfust_20.html)でご案内した「[Open Source Silicon Magazine vol.2](https://techbookfest.org/product/16QdT05XCLVsRDi1fqX2wy)」を参考にしてください。
+
+- テスト回路
+    - [Open Source Silicon Magazine vol.2](https://techbookfest.org/product/16QdT05XCLVsRDi1fqX2wy)
+- ![OPAMP_setup01](/images/OPAMP_setup01.jpg)
+- ![OPAMP_setup02](/images/OPAMP_setup02.jpg)
+- ![OPAMP_setup03](/images/OPAMP_setup03.jpg)
+- ![OPAMP_output01](/images/OPAMP_output01.jpg)
+- ![OPAMP_output02](/images/OPAMP_output02.jpg)
+
+
+### ヘッドホンアンプを駆動したOPAMP
+- [3zki](https://github.com/ishi-kai/ISHI-KAI_Multiple_Projects_OpenMPW_TR10-2#3zki%E3%81%AE%E5%9B%9E%E8%B7%AF)
+
+R2R OPAMPです。秋月電子の[NJM4580DD使用ヘッドホンアンプキット](https://akizukidenshi.com/catalog/g/g112309/)が駆動できました。目立ったノイズや歪みはなく、まあ普通に聞けるレベルです。  
+- ![OPAMP_HP](/images/OPAMP_HP.jpg)
+
+
+### 動作しなかったOPAMP
+- 現状、無し。
